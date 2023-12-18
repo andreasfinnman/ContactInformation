@@ -21,6 +21,7 @@ Short description of your web API project.
 This project is a work sample as a part of recruitment process at SEB
 
 ## Getting Started
+Open the ContactInformation.sln solution in Visual Studio. There should be two projects loading - 1) ContactInformation.Api and 2) ContactInformation.UnitTests
 
 ### Prerequisites
 
