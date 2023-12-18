@@ -8,9 +8,7 @@ Short description of your web API project.
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage)
 - [API Documentation](#api-documentation)
-- [Configuration](#configuration)
 - [Testing](#testing)
 - [Contributing](#contributing)
 - [License](#license)
@@ -18,9 +16,10 @@ Short description of your web API project.
 
 ## Project Overview
 
-This project is a work sample as a part of recruitment process at SEB
+This project is a work sample as a part of recruitment process at ----
 
 ## Getting Started
+Open the ContactInformation.sln solution in Visual Studio. There should be two projects loading - 1) ContactInformation.Api and 2) ContactInformation.UnitTests
 
 ### Prerequisites
 
@@ -45,4 +44,4 @@ There is a unit test project in the solution. Its setup for writing unit tests u
 
 ## Acknowledgments
 
-Acknowledgements to SEB giving me this interesting challenge
+Acknowledgements to ---- giving me this interesting challenge 
