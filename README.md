@@ -10,8 +10,6 @@ Short description of your web API project.
   - [Installation](#installation)
 - [API Documentation](#api-documentation)
 - [Testing](#testing)
-- [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgments](#acknowledgments)
 
 ## Project Overview
