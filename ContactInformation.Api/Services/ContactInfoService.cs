@@ -17,10 +17,9 @@ namespace ContactInformation.Api.Services
                 contactInfoDbSettings.Value.ContactInfoCollectionName);
         }
 
-        public async Task<string> CreateContactInfo(ContactInfo model)
+        public async Task CreateContactInfo(ContactInfo model)
         {
             await _contactInfoCollection.InsertOneAsync(model);
-            return model.Id;
         }
 
         public async Task<bool> DeleteContactInfo(string id)
@@ -28,6 +27,7 @@ namespace ContactInformation.Api.Services
             var result =  await _contactInfoCollection.DeleteOneAsync(x => x.Id == id);
             return result.DeletedCount == 1;
         }
+
         public async Task<ContactInfo> GetContactInfo(string id)
         {
             return await _contactInfoCollection.Find(x => x.Id == id).FirstOrDefaultAsync();
