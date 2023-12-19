@@ -46,7 +46,7 @@ public class ContactInfoController : ControllerBase
     /// <summary>
     /// Creates a new ContactInfo object. Omit the Id property in the model to have it generated.
     /// This does not update existing. Posting an already existing id will result in error.
-    /// NOTE strictly seen this is not a post as it works as an UPDATE rather than an UPSERT
+    /// NOTE strictly seen this is not a post as it works as an INSERT rather than an UPSERT
     /// </summary>
     /// <param name="contactInfo"></param>
     /// <returns>The created model</returns>
